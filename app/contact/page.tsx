@@ -45,9 +45,12 @@ export default function ContactPage() {
                   <Mail className="h-5 w-5 text-blue-500 mt-1" />
                   <div>
                     <h3 className="font-medium">Email</h3>
-                    <p className="text-sm text-gray-600">
-                      support@thumbnaildownloader.com
-                    </p>
+                    <a
+                      href="mailto:thumbnaildownloader321@gmail.com?subject=YouTube Thumbnail Downloader Inquiry"
+                      className="text-sm text-gray-600 hover:text-gray-800 hover:underline transition-colors"
+                    >
+                      thumbnaildownloader321@gmail.com
+                    </a>
                   </div>
                 </div>
               </CardContent>

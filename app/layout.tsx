@@ -4,6 +4,7 @@ import "./globals.css";
 import Footer from "@/components/footer";
 import Navbar from "@/components/navbar";
 import StructuredData from "@/components/structured-data";
+import { Analytics } from "@vercel/analytics/next";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -25,6 +26,7 @@ export default function RootLayout({
         <StructuredData />
         <Navbar />
         {children}
+        <Analytics />
         <Footer />
       </body>
     </html>

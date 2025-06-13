@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     "Learn how we protect your privacy and handle your data when using our YouTube thumbnail download service.",
 };
 
-export default function PrivacyPolicyPage() {
+export default function PrivacyPolicy() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 py-12">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -343,11 +343,7 @@ export default function PrivacyPolicyPage() {
               <div className="bg-gray-50 border border-gray-200 rounded-lg p-4">
                 <ul className="space-y-2 text-gray-700">
                   <li>
-                    <strong>Email:</strong> privacy@thumbnaildownloader.com
-                  </li>
-                  <li>
-                    <strong>Contact Form:</strong> Use our contact page for
-                    detailed inquiries
+                    <strong>Email:</strong> thumbnaildownloader321@gmail.com
                   </li>
                   <li>
                     <strong>Response Time:</strong> We respond to privacy

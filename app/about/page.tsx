@@ -31,7 +31,81 @@ export default function AboutPage() {
             enthusiasts get the images they need, when they need them.
           </p>
         </div>
+        {/* Intro  */}
 
+        <div className="max-w-4xl mx-auto px-4 py-6 md:py-12 grid grid-cols-1 md:grid-cols-2 gap-12">
+          <div>
+            <div className="text-xl md:text-2xl font-semibold text-gray-900 mb-2">
+              🌟 Who We Are
+            </div>
+            <p className="text-gray-600">
+              We are a small team of developers and content specialists who
+              understand the importance of visual content in today&apos;s
+              digital world. Our mission is to simplify your workflow by
+              offering a free, no-login-required tool that helps you download
+              YouTube thumbnails in multiple resolutions.
+            </p>
+          </div>
+
+          <div>
+            <div className="text-xl md:text-2xl font-semibold text-gray-900 mb-2">
+              🚀 What We Offer
+            </div>
+            <ul className="list-disc list-inside text-gray-600 space-y-1">
+              <li>
+                Instant access to YouTube thumbnails in various resolutions
+                (from 120x90 to 1280x720)
+              </li>
+              <li>
+                Support for all major YouTube URL formats, including shortened
+                and embedded links
+              </li>
+              <li>
+                Completely browser-based — no installations or downloads needed
+              </li>
+              <li>Secure and private — we never store your data or links</li>
+              <li>Fast, clean user experience with no ads or tracking</li>
+            </ul>
+          </div>
+
+          <div>
+            <div className="text-xl md:text-2xl font-semibold text-gray-900 mb-2">
+              🔒 Privacy-First Approach
+            </div>
+            <p className="text-gray-600">
+              At Thumbnail Downloader, we prioritize your privacy. All thumbnail
+              processing takes place in your browser, and we do not log or store
+              any URLs or downloads. You can use our tool with complete
+              confidence.
+            </p>
+          </div>
+          <div>
+            <div className="text-xl md:text-2xl font-semibold text-gray-900 mb-2">
+              💡 Why Thumbnail Downloader?
+            </div>
+            <p className="text-gray-600">
+              In an age of content overload, a thumbnail can make or break a
+              video. Whether you&apos;re analyzing competitors, creating
+              compilations, or simply saving a favorite video’s image, our tool
+              is here to make that process effortless.
+            </p>
+          </div>
+
+          <div>
+            <div className="text-xl md:text-2xl font-semibold text-gray-900 mb-2">
+              🙌 Thank You for Visiting
+            </div>
+            <p className="text-gray-600">
+              We&apos;re grateful for your support and feedback as we continue
+              improving Thumbnail Downloader. If you have suggestions, encounter
+              issues, or just want to say hello, feel free to contact us.
+            </p>
+          </div>
+
+          <p className="text-gray-600 italic">
+            Your support keeps us going — one thumbnail at a time!
+          </p>
+        </div>
         {/* Mission Section */}
         <Card className="mb-8">
           <CardHeader>

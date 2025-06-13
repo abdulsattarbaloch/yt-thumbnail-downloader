@@ -1,4 +1,3 @@
-// components/ThumbnailDownloader.tsx
 "use client";
 
 import { useState } from "react";
@@ -108,16 +107,23 @@ export default function ThumbnailDownloader() {
           </CardTitle>
         </CardHeader>
         <CardContent className="space-y-4">
-          <div className="flex gap-2">
+          <div className="flex flex-col md:flex-row gap-2">
             <Input
               type="text"
-              placeholder="Enter YouTube URL (e.g., https://youtu.be/dQw4w9WgXcQ)"
+              placeholder="Enter YouTube Video URL"
               value={url}
               onChange={(e) => setUrl(e.target.value)}
               onKeyPress={handleKeyPress}
-              className="flex-1"
+              className="flex-1 min-h-[48px] px-5"
             />
-            <Button onClick={handleFetch} disabled={loading} size={"lg"}>
+
+            <Button
+              onClick={handleFetch}
+              disabled={loading}
+              size={"lg"}
+              className="
+              min-h-[48px]"
+            >
               {loading ? (
                 <div className="animate-spin rounded-full h-4 w-4 border-2 border-gray-300 border-t-gray-900" />
               ) : (

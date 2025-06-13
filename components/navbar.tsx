@@ -1,8 +1,8 @@
 "use client";
 
-import { useState } from "react";
-import { Home, Info, Mail, Menu, X } from "lucide-react";
+import { Home, Info, Mail, Menu, ShieldQuestion, X } from "lucide-react";
 import Link from "next/link";
+import { useState } from "react";
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -31,7 +31,7 @@ export default function Navbar() {
 
           {/* Desktop Navigation */}
           <div className="hidden md:block">
-            <div className="ml-10 flex items-baseline space-x-8">
+            <div className="ml-10 flex items-baseline space-x-6">
               <Link
                 href="/"
                 className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-colors flex items-center"
@@ -45,6 +45,13 @@ export default function Navbar() {
               >
                 <Info className="h-4 w-4 mr-2" />
                 About
+              </Link>
+              <Link
+                href="/faqs"
+                className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-colors flex items-center"
+              >
+                <ShieldQuestion className="h-4 w-4 mr-2" />
+                FAQs
               </Link>
               <Link
                 href="/contact"
@@ -91,6 +98,13 @@ export default function Navbar() {
               >
                 <Info className="h-4 w-4 mr-2" />
                 About
+              </Link>
+              <Link
+                href="/faqs"
+                className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-colors flex items-center"
+              >
+                <ShieldQuestion className="h-4 w-4 mr-2" />
+                Faqs
               </Link>
               <Link
                 href="/contact"

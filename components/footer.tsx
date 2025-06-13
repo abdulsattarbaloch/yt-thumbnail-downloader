@@ -1,4 +1,4 @@
-import { Home, Info, Mail } from "lucide-react";
+import { Home, Info, Mail, ShieldQuestion } from "lucide-react";
 import Link from "next/link";
 
 export default function Footer() {
@@ -73,6 +73,15 @@ export default function Footer() {
                 >
                   <Info className="h-4 w-4 mr-2" />
                   About Us
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/faqs"
+                  className="text-gray-300 hover:text-white transition-colors flex items-center"
+                >
+                  <ShieldQuestion className="h-4 w-4 mr-2" />
+                  FAQs
                 </Link>
               </li>
               <li>

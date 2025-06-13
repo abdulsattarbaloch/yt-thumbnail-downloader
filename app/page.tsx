@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description:
     "Download YouTube video thumbnails in HD quality for free. Support for all resolutions (1280x720, 640x480, 480x360). Fast, safe, and works with any YouTube URL.",
   keywords:
-    "youtube thumbnail downloader, download youtube thumbnails, youtube thumbnail extractor, free thumbnail downloader, HD youtube thumbnails",
+    "youtube thumbnail downloader, download youtube thumbnails, youtube thumbnail extractor, free thumbnail downloader, HD youtube thumbnails, youtube thumbnail download, thumbnail download, thumbnail downloader, yt thumbnail download, download youtube thumbnail, youtube video thumbnail download, thumbnail grabber",
   authors: [{ name: "YouTube Thumbnail Downloader" }],
   robots: "index, follow",
   openGraph: {
